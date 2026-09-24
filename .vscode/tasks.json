@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile DSA521S project",
+      "type": "shell",
+      "command": "javac",
+      "args": ["-encoding", "UTF-8", "-d", "bin", "src/*.java"],
+      "windows": {"options": {"shell": {"executable": "powershell.exe", "args": ["-NoProfile", "-Command"]}}},
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Run all tests",
+      "type": "shell",
+      "command": "java",
+      "args": ["-cp", "bin", "ProjectTests"],
+      "dependsOn": "Compile DSA521S project",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate demonstration evidence",
+      "type": "shell",
+      "command": "java",
+      "args": ["-cp", "bin", "DemoRunner"],
+      "dependsOn": "Compile DSA521S project",
+      "problemMatcher": []
+    }
+  ]
+}

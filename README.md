@@ -11,14 +11,14 @@ and sorting methods are not used.
 ## Group identification - complete before submission
 
 - Group number: **GROUP XX**
-- Member 1: **STUDENT NUMBER - FULL NAME**
-- Member 2: **STUDENT NUMBER - FULL NAME**
-- Member 3: **STUDENT NUMBER - FULL NAME**
-- Member 4: **STUDENT NUMBER - FULL NAME**
-- Member 5: **STUDENT NUMBER - FULL NAME**
-- Member 6 (if applicable): **STUDENT NUMBER - FULL NAME**
-- Submitted by: **STUDENT NUMBER - FULL NAME**
-- GitHub repository: **https://github.com/USERNAME/REPOSITORY**
+- Member 1: **224036998 - ILEKA SAMWEL**
+- Member 2: **225019388 - NAMUPALA PINEAS**
+- Member 3: **225023814 - KOSHIPYU JOSUA**
+- Member 4: **224057626 - ISMAEL LASARUS**
+- Member 5: **226122409 - ANGULA JOSEPH**
+
+- Submitted by: **225023814 - KOSHIPYU JOSUA**
+- GitHub repository: **https://github.com/225023814-Koshipyu/DSA521S_Group11_Project2026**
 
 ## Run in VS Code
 
@@ -66,14 +66,3 @@ java -cp bin SortingExperiment docs/experiment-results.csv
 | `PostfixDemo.java` | Standalone stack exercise |
 | `DemoRunner.java` | Reproducible demonstrations and evidence |
 | `ProjectTests.java` | Dependency-free automated tests |
-
-## Submission checklist
-
-- Replace all **GROUP XX** and member placeholders in this README and the report.
-- Replace the placeholder GitHub link in this README and the report.
-- Ensure all members make identifiable, meaningful commits.
-- Re-run `ProjectTests` after any change.
-- Submit one ZIP named `DSA521S_GroupXX_Project2026.zip` containing the report,
-  source files, and this README.
-- Ensure the eLearning ZIP matches the final GitHub version.
-
